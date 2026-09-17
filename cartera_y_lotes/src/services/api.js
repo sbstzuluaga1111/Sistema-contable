@@ -1,7 +1,9 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001/api",
+  baseURL:
+    import.meta.env.VITE_API_URL ||
+    "http://localhost:3001/api",
 });
 
 export async function obtenerLotes() {
@@ -20,7 +22,11 @@ export async function actualizarLote(id, lote) {
 }
 
 export async function registrarPago(id, pago) {
-  const response = await api.post(`/lotes/${id}/pago`, pago);
+  const response = await api.post(
+    `/lotes/${id}/pago`,
+    pago
+  );
+
   return response.data;
 }
 
@@ -28,6 +34,7 @@ export async function eliminarPago(id, pagoId) {
   const response = await api.delete(
     `/lotes/${id}/pago/${pagoId}`
   );
+
   return response.data;
 }
 
@@ -41,7 +48,6 @@ export async function registrarInicial(id, inicial) {
 }
 
 export async function iniciarSesion(usuario, password) {
-
   const response = await api.post(
     "/login",
     {

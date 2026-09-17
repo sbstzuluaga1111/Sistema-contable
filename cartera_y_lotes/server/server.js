@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 
 const app = express();
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 /* =========================================================
    RUTAS DEL SISTEMA
@@ -26,7 +26,14 @@ const DATA_FILE = path.join(
    MIDDLEWARE
 ========================================================= */
 
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://sistema-contable-front.onrender.com"
+    ]
+  })
+);
 app.use(express.json());
 
 /* =========================================================
@@ -914,6 +921,7 @@ app.delete(
 
 app.listen(
   PORT,
+  "0.0.0.0",
   () => {
 
     console.log(
@@ -921,7 +929,7 @@ app.listen(
     );
 
     console.log(
-      `Servidor ejecutándose en http://localhost:${PORT}`
+      `Servidor ejecutándose en el puerto ${PORT}`
     );
 
     console.log(
