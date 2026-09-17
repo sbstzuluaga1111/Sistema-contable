@@ -1,0 +1,184 @@
+{
+  "lotes": [
+    {
+      "id": 1789675603536,
+      "manzana": "C",
+      "lote": "19",
+      "valor": 12000000,
+      "cuotaInicial": 4000000,
+      "cuotaMensual": 500000,
+      "vendedor": "JERE",
+      "pagos": [
+        {
+          "id": 1789679180110,
+          "fecha": "2026-07-03",
+          "valor": 500000
+        },
+        {
+          "id": 1789679215132,
+          "fecha": "2026-08-03",
+          "valor": 500000
+        },
+        {
+          "id": 1789679223572,
+          "fecha": "2026-09-03",
+          "valor": 500000
+        }
+      ],
+      "estado": "Disponible",
+      "fechaVenta": "2026-06-03",
+      "fechaCuotaInicial": "2026-06-03"
+    },
+    {
+      "id": 1789676038307,
+      "manzana": "C",
+      "lote": "17",
+      "valor": 9000000,
+      "estado": "Disponible",
+      "vendedor": "JERE",
+      "fechaVenta": "2026-06-15",
+      "pagos": [
+        {
+          "id": 1789681191039,
+          "fecha": "2026-07-15",
+          "valor": 400000,
+          "tipo": "cuota"
+        },
+        {
+          "id": 1789681205927,
+          "fecha": "2026-08-15",
+          "valor": 400000,
+          "tipo": "cuota"
+        }
+      ],
+      "cuotaInicial": 1500000,
+      "fechaCuotaInicial": "2026-09-17",
+      "cuotaMensual": 400000
+    },
+    {
+      "id": 1789676097132,
+      "manzana": "D",
+      "lote": "3",
+      "valor": 9000000,
+      "estado": "Disponible",
+      "vendedor": "JERE",
+      "fechaVenta": "2026-06-15",
+      "pagos": [
+        {
+          "id": 1789681307334,
+          "fecha": "2026-07-15",
+          "valor": 400000,
+          "tipo": "cuota"
+        },
+        {
+          "id": 1789681325093,
+          "fecha": "2026-08-16",
+          "valor": 400000,
+          "tipo": "cuota"
+        }
+      ],
+      "cuotaInicial": 1500000,
+      "fechaCuotaInicial": "2026-09-17",
+      "cuotaMensual": 400000
+    },
+    {
+      "id": 1789676190076,
+      "manzana": "B",
+      "lote": "20",
+      "valor": 8000000,
+      "estado": "Disponible",
+      "vendedor": "MARIO",
+      "fechaVenta": "2026-06-22",
+      "pagos": [
+        {
+          "id": 1789681435325,
+          "fecha": "2026-06-22",
+          "valor": 500000,
+          "tipo": "cuota"
+        }
+      ],
+      "cuotaInicial": 4000000,
+      "fechaCuotaInicial": "2026-06-22",
+      "cuotaMensual": 500000
+    },
+    {
+      "id": 1789676238819,
+      "manzana": "B",
+      "lote": "2",
+      "valor": 8000000,
+      "estado": "Disponible",
+      "vendedor": "MARIO",
+      "fechaVenta": "2026-07-10",
+      "pagos": [],
+      "cuotaInicial": 0,
+      "fechaCuotaInicial": "2026-07-15",
+      "cuotaMensual": 1000000
+    },
+    {
+      "id": 1789676278228,
+      "manzana": "C",
+      "lote": "15",
+      "valor": 8000000,
+      "estado": "Disponible",
+      "vendedor": "MARIO",
+      "fechaVenta": "2026-07-15",
+      "pagos": [
+        {
+          "id": 1789681605837,
+          "fecha": "2026-08-15",
+          "valor": 2000000,
+          "tipo": "cuota"
+        }
+      ],
+      "cuotaInicial": 850000,
+      "fechaCuotaInicial": "2026-07-15",
+      "cuotaMensual": 2000000
+    },
+    {
+      "id": 1789676343266,
+      "manzana": "E",
+      "lote": "11",
+      "valor": 9000000,
+      "estado": "Disponible",
+      "vendedor": "JERE",
+      "fechaVenta": "2026-08-11",
+      "pagos": [],
+      "cuotaInicial": 5000000,
+      "fechaCuotaInicial": "2026-08-11",
+      "cuotaMensual": 400000
+    },
+    {
+      "id": 1789676395602,
+      "manzana": "C",
+      "lote": "11,12",
+      "valor": 15000000,
+      "estado": "Disponible",
+      "vendedor": "MARIO",
+      "fechaVenta": "2026-08-25",
+      "pagos": [
+        {
+          "id": 1789681766550,
+          "fecha": "2026-09-25",
+          "valor": 500000,
+          "tipo": "cuota"
+        }
+      ],
+      "cuotaInicial": 7000000,
+      "fechaCuotaInicial": "2026-08-25",
+      "cuotaMensual": 500000
+    },
+    {
+      "id": 1789676438907,
+      "manzana": "B",
+      "lote": "13",
+      "valor": 9000000,
+      "estado": "Disponible",
+      "vendedor": "MARIO",
+      "fechaVenta": "2026-09-04",
+      "pagos": [],
+      "cuotaInicial": 3000000,
+      "fechaCuotaInicial": "2026-09-04",
+      "cuotaMensual": 500000
+    }
+  ]
+}
